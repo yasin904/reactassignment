@@ -1,55 +1,26 @@
 import React from 'react';
 import './App.css';
+import TopBar from './topBar';
+import MidSection from './midSection';
+
+
 
 export class App extends React.Component{
   render(){
     return (
-      <body>
 
-    <nav id="navbar">
-        <div id="heading">
-            <span id="logo"> EDYODA </span>
-            <span className="name"> Explore Categories </span>
-                 
-                <select className="categories">
-                    <option value="option 1"> Artificial Intelligence</option>
-                    <option value="option 2"> Cloud Computing </option>
-                    <option value="option 3"> DevOps </option>
-                    <option value="option 4"> Programming Languages </option>
-                    <option value="option 5"> Mobile Application Development </option>
-                    <option value="option 6"> Technology and Tools </option>
-                    <option value="option 7"> Get a Job in a Tech Company </option>
-                    <option value="option 8"> Others </option>
-                </select>
-            
-        </div>
-        <span id="text"> Stories </span>
-       
-    </nav>
-    <div className="content">
-        <p className="main"> Latest Posts </p>
-
-        <div>
-            <span className="filter"> <i class="fa-solid fa-filter"></i>  Filter by Category</span>
-            <span></span>
-        </div>
-        <div className="categoryContainer1">
-            <button className="category1"> All </button>
-            <button className="category2"> Artificial Intelligence </button>
-            <button className="category3"> Cloud Computing </button>
-            <button className="category4"> DevOps </button>
-            <button className="category5"> Programming Languages </button>
-            <button className="category6"> Mobile Application Development </button>
-            <button className="category7"> Technology and Tools </button>
-        <div className="categoryContainer2">
-            <button className="category8"> Get a Job in a Tech Company </button>
-            <button className="category9"> Others </button>
-        </div>
-</div>
         
 
+      <body>
 
-    </div>
+<TopBar/>
+<MidSection/>
+        
+
+        
+
+    
+   
     <div className="row">
   <div className="column">
     <div className="card">
@@ -131,7 +102,7 @@ export class App extends React.Component{
   </div>
 
 
-  
+
 
 
 
